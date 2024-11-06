@@ -28,7 +28,7 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-portfolio-repo.git
+   git clone https://github.com/dineshbharati27/portfolio-website.git
    cd your-portfolio-repo
 
 2. Install dependencies:
