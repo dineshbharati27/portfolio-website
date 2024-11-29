@@ -25,6 +25,8 @@ import java from './java.png'
 import redux from './redux.png'
 import netlify from './netlify.png'
 import dsa from './dsa.png'
+import mariadb from './mariadb.png'
+import mysql from './mysql.png'
 
 
 export const assets ={
@@ -36,6 +38,26 @@ export const assets ={
     text_project,
     resume_builder_project
 }
+
+
+// export const project = 
+// [
+//   {
+//     link: "https://forever-e-commerce.netlify.app/",
+//     png: ecommerce_project,
+//     name: "E-commerce Clothing Website Frontend (JavaScript, Reactjs, Tailwind)"
+//   },
+//   {
+//     link: "https://cv-genie.netlify.app/",
+//     png: resume_builder_project,
+//     name: "Resume Builder Project (javascript, Reactjs, redux, tailwind)"
+//   },
+//   {
+//     link: "https://portfolio-dinesh-bharati.netlify.app/",
+//     png: portfolio_project,
+//     name: "Portfolio Website (javascript, Reactjs, Tailwind)"
+//   },
+// ]
 
 
 export const skills =
@@ -84,21 +106,29 @@ export const skills =
       png:bootstrap,
       
     },
-    // {
-    //   skill:"Nodejs",
-    //   png:nodejs,
+    {
+      skill: "MySql",
+      png: mysql,
+    },
+    {
+      skill: "Mariadb",
+      png: mariadb,
+    },
+    {
+      skill:"Nodejs",
+      png:nodejs,
       
-    // },
-    // {
-    //   skill:"ExpressJs",
-    //   png:expressJs,
+    },
+    {
+      skill:"ExpressJs",
+      png:expressJs,
       
-    // },
-    // {
-    //   skill:"MongodDb",
-    //   png:mongodb,
+    },
+    {
+      skill:"MongodDb",
+      png:mongodb,
       
-    // },
+    },
   ]
 
 export const otherSkills=
@@ -119,12 +149,11 @@ export const otherSkills=
    {
     skill:"Netlify",
     png:netlify
-   }
-   
-  //  {
-  //   skill:"Postman",
-  //   png:postman
-  //  },
+   },
+   {
+    skill:"Postman",
+    png:postman
+   },
   ]
 
 
