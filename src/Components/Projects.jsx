@@ -27,7 +27,7 @@ const Projects = ({bgcolor,darkmode}) => {
               />
               <div>
 
-                <h1 className={`text-md font-bold ${bgcolor==="white" ? "text-black" :"text-white"}`}>E-commerce Clothing Website Frontend (JavaScript, Reactjs, Tailwind)</h1>
+                <h1 className={`text-md font-bold ${bgcolor==="white" ? "text-black" :"text-white"}`}>E-commerce Website Frontend (JavaScript, Reactjs, Tailwind)</h1>
               </div>
             </div>
             </a>
