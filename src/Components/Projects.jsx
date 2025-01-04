@@ -4,7 +4,6 @@ import { MdOutlineFlipCameraIos } from "react-icons/md";
 import { FaCode } from "react-icons/fa";
 import "../Components/Global.css";
 import {assets} from '../Components/SocialLinks/assets'
-import { project } from "../Components/SocialLinks/assets";
 
 
 const Projects = ({bgcolor,darkmode}) => {
@@ -17,7 +16,7 @@ const Projects = ({bgcolor,darkmode}) => {
           <div className="flex gap-5 flex-wrap my-5">
 
 
-          <a href="https://doctor-appointment-mern.netlify.app/">
+          <a  target="_blank" href="https://doctor-appointment-mern.netlify.app/">
             <div
               className="ui-ux-design lg:w-80 md:w-80 sm:w-[300px] flex flex-col gap-3 p-5 rounded-lg"
               style={{background:`${bgcolor==="white" ? "#FFF4F4" :"black"}`,  border:`${bgcolor==="white" ? "none" :"1px solid #A6A6A6"}`}}
@@ -33,7 +32,7 @@ const Projects = ({bgcolor,darkmode}) => {
           </a>
 
 
-          <a href="https://forever-e-commerce.netlify.app/">
+          <a target="_blank" href="https://forever-e-commerce.netlify.app/">
             <div
               className="ui-ux-design lg:w-80 md:w-80 sm:w-[300px] flex flex-col gap-3 p-5 rounded-lg"
               style={{background:`${bgcolor==="white" ? "#EEF5FA" :"black"}`,  border:`${bgcolor==="white" ? "none" :"1px solid #A6A6A6"}`}}
@@ -48,7 +47,7 @@ const Projects = ({bgcolor,darkmode}) => {
             </div>
           </a>
 
-          <a href="https://forever-ecommerce-static.netlify.app/">
+          <a target="_blank" href="https://forever-ecommerce-static.netlify.app/">
             <div
               className="ui-ux-design lg:w-80 md:w-80 sm:w-[300px] flex flex-col gap-3 p-5 rounded-lg"
               style={{background:`${bgcolor==="white" ? "#FFF4F4" :"black"}`,  border:`${bgcolor==="white" ? "none" :"1px solid #A6A6A6"}`}}
@@ -64,7 +63,7 @@ const Projects = ({bgcolor,darkmode}) => {
           </a>
 
 
-            <a href="https://cv-genie.netlify.app/">
+            <a target="_blank" href="https://cv-genie.netlify.app/">
             <div
               className="ui-ux-design lg:w-80 md:w-80 sm:w-[300px] flex flex-col gap-3 p-5 rounded-lg"
               style={{background:`${bgcolor==="white" ? "#EEF5FA" :"black"}`,  border:`${bgcolor==="white" ? "none" :"1px solid #A6A6A6"}`}}
@@ -80,7 +79,7 @@ const Projects = ({bgcolor,darkmode}) => {
             </a>
 
 
-            <a href="https://portfolio-dinesh-bharati.netlify.app/">
+            <a target="_blank" href="https://portfolio-dinesh-bharati.netlify.app/">
             <div
               className="ui-ux-design lg:w-80 md:w-80 sm:w-[300px] flex flex-col gap-3 p-5 rounded-lg"
               style={{background:`${bgcolor==="white" ? "#FFF4F4" :"black"}`,  border:`${bgcolor==="white" ? "none" :"1px solid #A6A6A6"}`}}
