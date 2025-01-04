@@ -3,6 +3,7 @@ import ecommerce_project from './ecommerce_project.png'
 import portfolio_project from './portfolio_project.png'
 import text_project from './text_project.png'
 import resume_builder_project from './resume_builder_project.png'
+import doctor_project from './doctor_project.png'
 
 import myPhoto from './MyPhoto.png'
 import resume from './Resume.pdf'
@@ -36,7 +37,8 @@ export const assets ={
     ecommerce_project,
     portfolio_project,
     text_project,
-    resume_builder_project
+    resume_builder_project,
+    doctor_project
 }
 
 

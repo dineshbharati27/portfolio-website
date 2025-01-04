@@ -23,7 +23,7 @@ const Projects = ({bgcolor,darkmode}) => {
               style={{background:`${bgcolor==="white" ? "#FFF4F4" :"black"}`,  border:`${bgcolor==="white" ? "none" :"1px solid #A6A6A6"}`}}
             >
               <img
-                src={assets.ecommerce_project}
+                src={assets.doctor_project}
                 className="rounded-lg transition delay-150"
               />
               <div>
@@ -36,7 +36,7 @@ const Projects = ({bgcolor,darkmode}) => {
           <a href="https://forever-e-commerce.netlify.app/">
             <div
               className="ui-ux-design lg:w-80 md:w-80 sm:w-[300px] flex flex-col gap-3 p-5 rounded-lg"
-              style={{background:`${bgcolor==="white" ? "#FFF4F4" :"black"}`,  border:`${bgcolor==="white" ? "none" :"1px solid #A6A6A6"}`}}
+              style={{background:`${bgcolor==="white" ? "#EEF5FA" :"black"}`,  border:`${bgcolor==="white" ? "none" :"1px solid #A6A6A6"}`}}
             >
               <img
                 src={assets.ecommerce_project}
