@@ -16,7 +16,8 @@ const Projects = ({bgcolor,darkmode}) => {
 
           <div className="flex gap-5 flex-wrap my-5">
 
-            <a href="https://forever-e-commerce.netlify.app/">
+
+          <a href="https://doctor-appointment-mern.netlify.app/">
             <div
               className="ui-ux-design lg:w-80 md:w-80 sm:w-[300px] flex flex-col gap-3 p-5 rounded-lg"
               style={{background:`${bgcolor==="white" ? "#FFF4F4" :"black"}`,  border:`${bgcolor==="white" ? "none" :"1px solid #A6A6A6"}`}}
@@ -26,11 +27,41 @@ const Projects = ({bgcolor,darkmode}) => {
                 className="rounded-lg transition delay-150"
               />
               <div>
-
-                <h1 className={`text-md font-bold ${bgcolor==="white" ? "text-black" :"text-white"}`}>E-commerce Website Frontend (JavaScript, Reactjs, Tailwind)</h1>
+                <h1 className={`text-md font-bold ${bgcolor==="white" ? "text-black" :"text-white"}`}>Doctor's Appointment (Reactjs, Tailwind, Expressjs, Nodejs, Mongodb)</h1>
               </div>
             </div>
-            </a>
+          </a>
+
+
+          <a href="https://forever-e-commerce.netlify.app/">
+            <div
+              className="ui-ux-design lg:w-80 md:w-80 sm:w-[300px] flex flex-col gap-3 p-5 rounded-lg"
+              style={{background:`${bgcolor==="white" ? "#FFF4F4" :"black"}`,  border:`${bgcolor==="white" ? "none" :"1px solid #A6A6A6"}`}}
+            >
+              <img
+                src={assets.ecommerce_project}
+                className="rounded-lg transition delay-150"
+              />
+              <div>
+                <h1 className={`text-md font-bold ${bgcolor==="white" ? "text-black" :"text-white"}`}>E-commerce Website (Reactjs, Tailwind, Expressjs, Nodejs, Mongodb)</h1>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://forever-ecommerce-static.netlify.app/">
+            <div
+              className="ui-ux-design lg:w-80 md:w-80 sm:w-[300px] flex flex-col gap-3 p-5 rounded-lg"
+              style={{background:`${bgcolor==="white" ? "#FFF4F4" :"black"}`,  border:`${bgcolor==="white" ? "none" :"1px solid #A6A6A6"}`}}
+            >
+              <img
+                src={assets.ecommerce_project}
+                className="rounded-lg transition delay-150"
+              />
+              <div>
+                <h1 className={`text-md font-bold ${bgcolor==="white" ? "text-black" :"text-white"}`}>E-commerce Website only Frontend (JavaScript, Reactjs, Tailwind)</h1>
+              </div>
+            </div>
+          </a>
 
 
             <a href="https://cv-genie.netlify.app/">
@@ -43,7 +74,6 @@ const Projects = ({bgcolor,darkmode}) => {
                 className="rounded-lg transition delay-150"
               />
               <div>
-
                 <h1 className={`text-md font-bold ${bgcolor==="white" ? "text-black" :"text-white"}`}>Resume Builder Project (javascript, Reactjs, redux, tailwind)</h1>
               </div>
             </div>
@@ -60,7 +90,6 @@ const Projects = ({bgcolor,darkmode}) => {
                 className="rounded-lg transition delay-150"
               />
               <div>
-
                 <h1 className={`text-md font-bold ${bgcolor==="white" ? "text-black" :"text-white"}`}>Portfolio Website (javascript, Reactjs, Tailwind)</h1>
               </div>
             </div>
