@@ -28,6 +28,9 @@ import netlify from './netlify.png'
 import dsa from './dsa.png'
 import mariadb from './mariadb.png'
 import mysql from './mysql.png'
+import sql from './sql.png'
+import vercel from './vercel.png'
+import render from './render.png'
 
 
 export const assets ={
@@ -106,7 +109,10 @@ export const skills =
     {
       skill:"Bootstrap",
       png:bootstrap,
-      
+    },
+    {
+      skill: "SQL",
+      png: sql,
     },
     {
       skill: "MySql",
@@ -151,6 +157,14 @@ export const otherSkills=
    {
     skill:"Netlify",
     png:netlify
+   },
+   {
+    skill:"Render",
+    png:render
+   },
+   {
+    skill:"Vercel",
+    png:vercel
    },
    {
     skill:"Postman",
